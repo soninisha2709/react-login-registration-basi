@@ -36,3 +36,44 @@
     transform: rotate(360deg);
   }
 }
+.header{
+  font-size: calc(25px + 2vmin);
+  font-family:'Courier New', Courier, monospace;
+  text-shadow: #61dafb;
+  font-weight: bold;
+}
+.table-style{
+  margin: 10%;
+  padding: 5%;
+  width: 100%;
+  height: 100%;
+  border-radius: 5%;
+  border-color: aqua;
+  
+}
+
+.form-background{
+   background-color:#282c34;
+   border: #f4f5f5;
+   align-items: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   font-size: calc(10px + 2vmin);
+  
+}
+.form-control{
+  background-color:azure;
+  align-items: center;
+  width:inherit;
+  margin: 0.2cm;
+  border: #61dafb;
+}
+.form-button{
+  background-color: #61dafb;
+  border: #61dafb;
+  border-radius: 5%;
+  box-shadow: inset;
+  width: fit-content;
+  padding: 3%;
+}
